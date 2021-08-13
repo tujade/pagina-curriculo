@@ -16,6 +16,9 @@
   <!--styles -->
   <link rel="stylesheet" href="styles.css">
 
+  <!--icons -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round"
+rel="stylesheet">
 
 </head>
 
@@ -95,6 +98,14 @@
                       </div>   
                 </div>
             </li>
+            <li>
+              <div class="image"><img /></div>
+              <div class="content">
+                  <h3><b>UX/UI Design</b> @Udemy</h3>
+                  <div class="period t60">
+                    Agosto de 2021 
+                  </div>
+           </li>            
             </ul>
         </div>
       </div>
@@ -103,7 +114,7 @@
         <!-- habilidades-->
           <div class="skills">
               <h2>Habilidades</h2>
-              <ul>
+              <ul class="ul">
                   <li class="skills cards">
                     <h3>Front</h3>
                     <ul>
@@ -149,51 +160,7 @@
                     </li>  
                  </ul>
             </li>
-            <li class="skills cards">
-                <h3>Back</h3>
-                 <ul>
-                    <li>
-                        <div class="name">Node.js</div>
-                        <div class="progress">
-                            <div class="bar"></div>
-                            <div class="barincomplete"></div>
-                            <div class="barincomplete"></div>
-                            <div class="barincomplete"></div>
-                            <div class="barincomplete"></div>
-                        </div>
-                    </li>
-                    <li>
-                      <div class="name">PostgreSQL</div>
-                      <div class="progress">
-                          <div class="barincomplete"></div>
-                          <div class="barincomplete"></div>
-                          <div class="barincomplete"></div>
-                          <div class="barincomplete"></div>
-                          <div class="barincomplete"></div>
-                      </div>
-                  </li>
-                  <li>
-                    <div class="name">JWT</div>
-                    <div class="progress">
-                        <div class="barincomplete"></div>
-                        <div class="barincomplete"></div>
-                        <div class="barincomplete"></div>
-                        <div class="barincomplete"></div>
-                        <div class="barincomplete"></div>
-                    </div>
-                </li>
-                <li>
-                  <div class="name">REST</div>
-                  <div class="progress">
-                      <div class="barincomplete"></div>
-                      <div class="barincomplete"></div>
-                      <div class="barincomplete"></div>
-                      <div class="barincomplete"></div>
-                      <div class="barincomplete"></div>
-                    </div>
-                 </li>  
-              </ul>
-            </li>
+            
             <li class="skills cards">
                 <h3>Soft Skills</h3>
                 <ul>
@@ -249,7 +216,7 @@
                     <p>
                       Site desenvolvido na Semana do Próximo Nível da Rocketseat com inspiração na Cervejaria Artesanal Espinhaço.
                     </p>
-                    <img src="/assets/img/cervejaria.png" alt="Foto do Site"/> 
+                    <img class="image" src="/assets/img/cervejaria.png" alt="Foto do Site"/> 
                     <a href="https://tujade.github.io/cervejariaespinhaco/"target="_blank">Veja o Projeto</a>
                 </li>
                 <li>
@@ -257,7 +224,7 @@
                     <p>
                         Projeto desenvolvido como um desafio no Bootcamp da DIO. Consiste em uma aplicação desenvolvida em ReactJS que encontra os restaurantes e lanchonetes localizados próximo ao seu local. 
                     </p>
-                    <img src="/assets/img/restaurantfinder.jfif" alt="Foto do site"/>
+                    <img class="image" src="/assets/img/restaurantfinder.jfif" alt="Foto do site"/>
                     <a href="https://restfinder.netlify.app"target="_blank">Veja o projeto</a>
                 </li>
           </ul>
@@ -267,10 +234,12 @@
 
   <!--rodapé -->
   <footer>
-     <p>Jade Diniz</p>  
-     <p>Email: jade.mundim@gmail.com</p>  
-     <p>Telefone de contato: 31 9 8862-3419</p>  
-     <p>WhatsApp: 31 9 9214-0463</p>  
+    <div class="section"> 
+     <a class="a" href="https://www.linkedin.com/in/jademdiniz/"target="_blank"><i class="material-icons-round">person</i> </a>
+     <a class="a" href="mailto:jade.mundim@gmail.com?Subject=Título%20da%20mensagem"target="_blank"><i class="material-icons-round">mail</i></a>
+     <a class="a" href="https://api.whatsapp.com/send?l=pt-BR&phone=5531992140463"target="_blank"><i class="material-icons-round">whatsapp</i> </a> 
+    </div>  
   </footer>
 </body>
 </html>
+
