@@ -18,11 +18,11 @@ a {
 
 :root {
   /* colors */
-  --base-color: #e9e9e9;
-  --second-color: #385fca;
-  --third-color: #4bda09de;
-  --title-color: #000000;
-  --text-color: #000000;
+  --base-color: #1a1818;
+  --second-color: #df6642dc;
+  --third-color: #094bdade;
+  --title-color: #fafafa;
+  --text-color: #ffffff;
   
 
 
@@ -56,7 +56,7 @@ a {
 
 
 /* identification page ---------------------- */
-.dada {
+.data {
   margin-top: 3.75rem;
   box-sizing: border-box;
 }
@@ -88,15 +88,17 @@ img.photo {
 
 
 /* little column ---------------------- */
-
-.profession {
-  font-size: 1.5rem;
-}
-
-
 .t60 {
   color: var(--second-color);
 }
+
+.profession {
+  font-size: 1.5rem;
+  color: var(--text-color);
+}
+
+
+
 
 main {
   padding: 2.5rem 4.375rem 1.5rem;
@@ -180,7 +182,8 @@ ol {
   width: 18rem;
   margin: 0.75rem;
   flex-wrap: wrap;
-  display: inline-block;
+  display: flex;
+  
 }
 
 .skills h3 {
@@ -218,6 +221,8 @@ ol {
 
 .cards { 
   background-color: var(--second-color);
+  margin: 24px;
+  padding: 24px;
   
 }
 
